@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wall
+  m_Shader: {fileID: 4800000, guid: 070c1231e57d53040ab2decd8d32d4ab, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTexture:
+        m_Texture: {fileID: 2800000, guid: d096a9801946d134ba010c05e585b96e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTexture:
+        m_Texture: {fileID: 2800000, guid: b883c7d0214a6e74aa79ac3a0699bb5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: acfffbb2d391ed948bc88f27d44dc182, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: d096a9801946d134ba010c05e585b96e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: b883c7d0214a6e74aa79ac3a0699bb5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BorderIntensity: 0.08
+    - _BorderSharpness: 100
+    - _BorderTextureTiling: -9.21
+    - _BorderTexturelPanning: 0.14
+    - _BorderThickness: -0.87
+    - _BumpScale: 1
+    - _ChromaticAberration: 0
+    - _Cutoff: 0.5
+    - _DepthTextureCoordinates: 4.02
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _Emission: 0.08
+    - _Float0: 12.83
+    - _Float3: -0.05
+    - _Float4: 1
+    - _Float5: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _GradientIntencity: 2.46
+    - _GradientStrength: 7.9
+    - _Metallic: 0
+    - _Mode: 3
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RefractionAmount: 0.35
+    - _RefractionOffset: 0.81
+    - _RefractionTextureEmission: 3.32
+    - _RefractionTextureScale: 0.93
+    - _RefractionTextureScrollSpeed: 0.1
+    - _RippleAmplitude: 0
+    - _RippleFrequency: 0
+    - _RippleScale: 0
+    - _RippleSpeed: 2.6
+    - _ScrollSpeed: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureEmission: 7.6
+    - _TextureScale: 0.93
+    - _UVSec: 0
+    - _WallEmission: 1.35
+    - _ZWrite: 0
+    - __dirty: 0
+    - _borderWallScale: -5.17
+    m_Colors:
+    - _BorderColor: {r: 0.4049518, g: 0.73936725, b: 0.7867647, a: 0.959}
+    - _Color: {r: 0.38235295, g: 1, b: 0.97444224, a: 0.226}
+    - _Color0: {r: 0.5514706, g: 0.46631703, b: 0.46631703, a: 0}
+    - _EmissionColor: {r: 0.069636665, g: 0.39760762, b: 0.41176468, a: 1}
+    - _GradientOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 0.048496958, g: 0.0897424, b: 0.09558821, a: 0}
+    - _Vector0: {r: -0.05, g: 0.3, b: 0.17, a: 0.19}

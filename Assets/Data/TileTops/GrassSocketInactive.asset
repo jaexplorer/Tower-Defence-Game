@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe104432519c2e4594b716dfcba38a1, type: 3}
+  m_Name: GrassSocketInactive
+  m_EditorClassIdentifier: 
+  _color: {r: 0.46875, g: 0.75, b: 0.48232755, a: 1}
+  _prefab: {fileID: 100000, guid: 663ff965f8b1802479d521937bd1f44a, type: 2}
+  _mesh: {fileID: 4300258, guid: 5435e7bacdfa30c4b871cbc43da807ef, type: 3}
+  _elevatable: 1
+  _hasSocket: 0
+  _walkable: 1

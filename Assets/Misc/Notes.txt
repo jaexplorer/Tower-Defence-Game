@@ -1,0 +1,40 @@
+Add notes to keep in mind here on top of the file.
+
+Game controls:
+	Space - start wave, pause
+	F - + game speed
+	LMB - elevate tile, build
+	RMB - destroy 
+	R - reset the wave
+	x, Z - Rotate tile
+
+Level debug keys:
+	X - 100x speed
+	Z - restart the wave
+
+Pooling system:
+	Provides extention methods gameObject.ProduceCopy() and gameObject.Recycle().
+
+Gradient map editor:
+	Create new GradientMap file in Data folder.
+	Attach a texture to it manually.
+	Texture should have read/write enabled and have no compression.
+
+Level editor instructions:
+	Keys:
+		WASD - move
+		ScrollWheel - zoom
+		LMB - create tile
+		RMB click - remove object or tile
+		RMB - drag remove tile
+		MMB - elevate
+
+	Select necessary tile settings on the left.
+	Editor resets level and regenerates meshes on load.
+	Does not work in play mode.
+	Size tool moves level borders.
+	Select level in the top right.
+	
+		
+	
+

@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FogBkp
+  m_Shader: {fileID: 4800000, guid: afdb0cc815bae084ab2e51b0028afd57, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture0
+      second:
+        m_Texture: {fileID: 2800000, guid: 62ec0c58375cb5744b0148ef7144d1fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample0
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 10
+    - first:
+        name: _EffecScale
+      second: 0.1
+    - first:
+        name: _EffectScale
+      second: 0.22
+    - first:
+        name: _Float0
+      second: 0.02
+    - first:
+        name: _Float1
+      second: 0.1
+    - first:
+        name: _Float3
+      second: 1
+    - first:
+        name: _Float9
+      second: 1
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0.366
+    - first:
+        name: _Mode
+      second: 3
+    - first:
+        name: _NoizeScale
+      second: 0.01
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _OpacityHeightMult
+      second: 2.99
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Scale
+      second: 0.2
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TimeScale
+      second: 0.61
+    - first:
+        name: _TransAmbient
+      second: 0.2
+    - first:
+        name: _TransDirect
+      second: 1
+    - first:
+        name: _TransNormalDistortion
+      second: 0.1
+    - first:
+        name: _TransScattering
+      second: 2
+    - first:
+        name: _TransShadow
+      second: 0.9
+    - first:
+        name: _Translucency
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _YTransparancy
+      second: 1.8
+    - first:
+        name: _ZTransparancyOffset
+      second: 0.03
+    - first:
+        name: _ZWrite
+      second: 0
+    - first:
+        name: __dirty
+      second: 0
+    - first:
+        name: _tiling
+      second: 0.009
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.3323962, g: 0.6869257, b: 0.7794118, a: 0.322}
+    - first:
+        name: _Color0
+      second: {r: 0.38830015, g: 0.88193244, b: 0.9264706, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 0.5220588, g: 0.9208925, b: 1, a: 0.528}
+    - first:
+        name: _Emission
+      second: {r: 0.44117647, g: 0.9537525, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Vector0
+      second: {r: 0, g: 0, b: 0, a: 0}

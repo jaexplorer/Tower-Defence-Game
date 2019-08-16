@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FogCutoff
+  m_Shader: {fileID: 4800000, guid: 51386b5f500eb07448db8c7e251d1bf1, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 757a2125d5e6fa14e81f063d5b888ba2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 757a2125d5e6fa14e81f063d5b888ba2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 62ec0c58375cb5744b0148ef7144d1fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture0
+      second:
+        m_Texture: {fileID: 2800000, guid: 62ec0c58375cb5744b0148ef7144d1fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture1
+      second:
+        m_Texture: {fileID: 2800000, guid: 757a2125d5e6fa14e81f063d5b888ba2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TextureSample0
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BorderIntencity
+      second: 3.02
+    - first:
+        name: _BorderSharpness
+      second: 4.74
+    - first:
+        name: _BorderThickness
+      second: -0.03
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 10
+    - first:
+        name: _EffecScale
+      second: 0.1
+    - first:
+        name: _EffectScale
+      second: 0.28
+    - first:
+        name: _Emission
+      second: -0
+    - first:
+        name: _Float0
+      second: 0.02
+    - first:
+        name: _Float1
+      second: 0.1
+    - first:
+        name: _Float2
+      second: 0.65
+    - first:
+        name: _Float3
+      second: 1.11
+    - first:
+        name: _Float6
+      second: 1
+    - first:
+        name: _Float9
+      second: 1
+    - first:
+        name: _FogClampDepth
+      second: 4.24
+    - first:
+        name: _FogClampValue
+      second: 2.12
+    - first:
+        name: _FogDensity
+      second: 8.5
+    - first:
+        name: _FogIntencity
+      second: 36.8
+    - first:
+        name: _FogThickness
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _MaxDepth
+      second: 1.86
+    - first:
+        name: _MaxValue
+      second: 1.46
+    - first:
+        name: _MaximumFogDencity
+      second: 84.67
+    - first:
+        name: _Metallic
+      second: 0.366
+    - first:
+        name: _Mode
+      second: 3
+    - first:
+        name: _NoiseFlat
+      second: 0
+    - first:
+        name: _NoiseIntencity
+      second: 0.43
+    - first:
+        name: _NoiseTiling
+      second: 10
+    - first:
+        name: _NoiseTimeScale
+      second: 0.018
+    - first:
+        name: _NoizeScale
+      second: 0.01
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _OpacityHeightMult
+      second: 2.99
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Scale
+      second: 0.2
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TimeScale
+      second: 0.051
+    - first:
+        name: _TransAmbient
+      second: 0.2
+    - first:
+        name: _TransDirect
+      second: 1
+    - first:
+        name: _TransNormalDistortion
+      second: 0.1
+    - first:
+        name: _TransScattering
+      second: 2
+    - first:
+        name: _TransShadow
+      second: 0.9
+    - first:
+        name: _Translucency
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _YTransparancy
+      second: 1.8
+    - first:
+        name: _ZTransparancyOffset
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 0
+    - first:
+        name: __dirty
+      second: 0
+    - first:
+        name: _tiling
+      second: 0.003
+    m_Colors:
+    - first:
+        name: _BorderColor
+      second: {r: 0.75, g: 0.97931033, b: 1, a: 0.528}
+    - first:
+        name: _Color
+      second: {r: 0.3323962, g: 0.6869257, b: 0.7794118, a: 0.322}
+    - first:
+        name: _Color0
+      second: {r: 0.38830015, g: 0.88193244, b: 0.9264706, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 0.4525303, g: 0.99264705, b: 0.99264705, a: 0.528}
+    - first:
+        name: _Emission
+      second: {r: 1, g: 0, b: 0, a: 0.491}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.39965397, g: 0.70075166, b: 0.8235294, a: 0.166}
+    - first:
+        name: _Vector0
+      second: {r: 0, g: 0, b: 0, a: 0}

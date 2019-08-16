@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf1a1fef2381734fb47fc68c3827f17, type: 3}
+  m_Name: EnemyPath
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 100000, guid: a5681b9f79941094596224ba5a4f6964, type: 2}
+  _healthBarPoint: {x: 0, y: 0.45, z: 0}
+  _center: {x: 0, y: 0.15, z: 0}
+  _portalDamage: 0
+  _reward: 10
+  _health: 150000
+  _armor: 1
+  _speed: 2000
+  _spawnInterval: 40
+  _acceleration: 15

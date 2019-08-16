@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe104432519c2e4594b716dfcba38a1, type: 3}
+  m_Name: StoneSocket
+  m_EditorClassIdentifier: 
+  _color: {r: 0.4620999, g: 0.5661765, b: 0.56186986, a: 0}
+  _prefab: {fileID: 100000, guid: c3c26908ab1f43a48977b1febac6e4ae, type: 2}
+  _mesh: {fileID: 4300226, guid: 5435e7bacdfa30c4b871cbc43da807ef, type: 3}
+  _elevatable: 1
+  _isTowerSocket: 1
+  _walkable: 1
+  test: 0

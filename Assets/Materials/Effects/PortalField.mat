@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PortalField
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 3f8cfecffcfa94948a30dd5a57e6f297, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3f8cfecffcfa94948a30dd5a57e6f297, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture0
+      second:
+        m_Texture: {fileID: 2800000, guid: acfffbb2d391ed948bc88f27d44dc182, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture1
+      second:
+        m_Texture: {fileID: 2800000, guid: d096a9801946d134ba010c05e585b96e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BorderIntensity
+      second: 0
+    - first:
+        name: _BorderSharpness
+      second: 1.94
+    - first:
+        name: _BorderTextureTiling
+      second: -9.21
+    - first:
+        name: _BorderTexturelPanning
+      second: 0.14
+    - first:
+        name: _BorderThickness
+      second: -0.82
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _ChromaticAberration
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DepthTextureCoordinates
+      second: 4.02
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Float0
+      second: 115.39
+    - first:
+        name: _Float3
+      second: -0.05
+    - first:
+        name: _Float4
+      second: 1
+    - first:
+        name: _Float5
+      second: 1
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RippleAmplitude
+      second: 0
+    - first:
+        name: _RippleFrequency
+      second: 0
+    - first:
+        name: _RippleScale
+      second: 0
+    - first:
+        name: _RippleSpeed
+      second: 2.6
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WallEmission
+      second: 2
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: __dirty
+      second: 0
+    - first:
+        name: _borderWallScale
+      second: -5.17
+    m_Colors:
+    - first:
+        name: _BorderColor
+      second: {r: 0.27088502, g: 0.198205, b: 0.28676468, a: 0.841}
+    - first:
+        name: _Color
+      second: {r: 0.6544118, g: 1, b: 0.98569983, a: 1}
+    - first:
+        name: _Color0
+      second: {r: 0.5514706, g: 0.46631703, b: 0.46631703, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0.74746335, g: 1.1421912, b: 0.8318534, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.43119404, g: 0.38830012, b: 0.46323526, a: 1}
+    - first:
+        name: _Vector0
+      second: {r: -0.05, g: 0.3, b: 0.17, a: 0.19}

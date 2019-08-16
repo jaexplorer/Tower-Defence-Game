@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7209cfb98c6ef44f8386a66cf9b45a3, type: 3}
+  m_Name: TowerMultyData
+  m_EditorClassIdentifier: 
+  _color: {r: 0.37251297, g: 0.6110399, b: 0.7794118, a: 0}
+  _towerPrefab: {fileID: 100000, guid: 4b562554265a7dd45b0096fe483661dd, type: 2}
+  _projectilePrefab: {fileID: 1322376045157372, guid: 2d839424b6fe4ae49bb9a073296a622a,
+    type: 2}
+  _additionalPrefab: {fileID: 0}
+  _mesh: {fileID: 4300102, guid: ff808a2452f0c8e4691c5bc598439a88, type: 3}
+  _buttonSprite: {fileID: 21300000, guid: 2defbee3028d1bf468b320b124bea9d0, type: 3}
+  _markers:
+  - {x: -1, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 1, y: 0, z: -1}
+  - {x: -1, y: 0, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 1, y: 0, z: 1}
+  _launcherPoint: {x: 0, y: 0.4, z: 0}
+  _cooldown: 15
+  _range: 0
+  _projectileDamage: 2000
+  _projectileVelocity: 100
+  _projectileRange: 0
+  _projectileLifetime: 0
+  _debuff: 0
+  _debuffMax: 0
